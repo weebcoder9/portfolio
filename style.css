@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cta {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Dosis', sans-serif;
+    transition: all 0.5s;
+}
+
+.cta:hover {
+    /* transform: scale(1.2);  */
+    padding: 1rem;
+}
+
+
+/* nav bar sexction  */
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 90%;
+    margin: 1.5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h3 {
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    transition: all 1s;
+    font-size: 3.5vmin;
+}
+
+.navbar h3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar ul {}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    font-family: 'Dosis', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 0.8rem;
+    transition: all 0.5s;
+}
+
+.navbar ul li a:hover {
+    opacity: 1;
+    font-size: 1rem;
+}
+
+
+/* .navbar ul li a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+} */
+
+.right a:hover .right {
+    transform: scale(1.1);
+}
+
+
+/* text section   */
+
+.text {
+    width: 50%;
+    margin: 3.5rem;
+    color: whitesmoke;
+}
+
+.text h1 {
+    font-family: 'Grape Nuts', cursive;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1rem;
+}
+
+
+/* logo  */
+
+.logo {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 4rem;
+    transition: all 0.5s;
+}
+
+.logo img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+/* project section  */
+
+.project {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.col {
+    width: 45%;
+    padding: 2rem;
+}
+
+.col img {
+    border-radius: 1rem;
+    border: none;
+}
+
+.col img,
+h2 {
+    margin-bottom: 0.8rem;
+}
+
+.col h2,
+.col p {
+    opacity: 0.8;
+    font-family: 'Dosis', sans-serif;
+}
+
+.col h2:hover,
+.col p:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/* description  */
+
+.description {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: gray;
+}
+
+
+/* bottom text  */
+
+.bottom-text {
+    width: 50%;
+    margin: 2rem 4rem;
+    color: whitesmoke;
+}
+
+.bottom-text h1,
+.bottom-text p,
+.bottom-text .cta {
+    margin-bottom: 1rem;
+}
+
+.bottom-text p {
+    opacity: 0.7;
+}
+
+
+/* footer  */
+
+.footer-part {
+    width: 100%;
+    background-color: rgb(98, 91, 91);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 3rem auto;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer h2 {
+    color: whitesmoke;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.footer .social img {
+    margin-right: 1rem;
+    transition: all 0.5s;
+}
+
+.footer .social img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
